@@ -15,7 +15,7 @@ library(summarytools)
 #install.packages("readxl")  # Install readxl package
 library(readxl) # load readxl package
 
-setwd("/Users/Quentin/Desktop/Hdip Data Science and Analytics/Year 1/Semester 1/STAT8010 - Introduction to R for Data Science/Assignment 2") # Set the working directory to where file is contained
+# Set the working directory to where file is contained
 
 Spain <- read_excel("STAT8010_CA2_2024-cleaned.xlsx", sheet = "Sheet1") # Assign each sheet to a Data frame (using cleaned by Justin's clean set to be sure)
 # Spain <- read_excel("STAT80010_CA2_2024-cleaned_by_Quentin.xlsx", sheet = "Sheet1") # In case you want to try my clean set
