@@ -2,7 +2,7 @@
 install.packages("readxl")  # Install readxl package
 library(readxl) # load readxl package
 
-setwd("/Users/Quentin/Desktop/Hdip Data Science and Analytics/Year 1/Semester 1/STAT8010 - Introduction to R for Data Science/Assignment 2") # Set the working directory to where file is contained
+ # Set the working directory to where file is contained
 
 Spain <- read_excel("STAT8010_CA2_2024.xlsx", sheet = "Spain") # Assign each sheet to a Data frame
 Info <- read_excel("STAT8010_CA2_2024.xlsx", sheet = "Info") # Assign each sheet to a Data frame
